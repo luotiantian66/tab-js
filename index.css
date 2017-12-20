@@ -1,0 +1,40 @@
+
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.container {
+	margin:30px 0;		
+}
+
+.blk {
+	border-top:1px solid grey;
+	border-left:1px solid grey;
+	float: left;
+	padding: 10px 20px;
+	text-align: center;
+}
+.blk:last-child {
+	border-right: 1px solid grey;
+}
+.content {
+	border: 1px solid grey;
+	width: 500px;
+	height: 200px;	
+}
+.panel {
+	padding: 20px;
+	display: none;
+}
+
+
+.blk.active {
+	background-color: grey;
+}
+
+.panel.active{
+	display: block;
+}
+
